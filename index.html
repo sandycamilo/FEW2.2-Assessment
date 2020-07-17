@@ -72,22 +72,24 @@
 				</div>
 			</section>
 
+			<div class="cartsec">
+				<section id="cart">
+					<header>
+						<div class="colortitle">
+							<h1>CART</h1>
+						</div>
+					</header>
 
-			<section id="cart">
-				<header>
-					<div class="colortitle">
-						<h1>CART</h1>
+					<ul id="items">
+						<!-- Items here -->
+					</ul>
+					<div class="totalsec">
+						<div id="total">
+							<!-- Total here -->
+						</div>
 					</div>
-				</header>
-
-				<ul id="items">
-					<!-- Items here -->
-				</ul>
-	
-				<div id="total">
-					<!-- Total here -->
-				</div>
-			</section>
+				</section>
+			</div>
 			
 			
 			<!-- Section Color Cards - This section contains three cards Style these -->
@@ -138,7 +140,9 @@
 									MESSAGE
 									<textarea></textarea>
 								</label>
-								<button>submit</button>
+								<div class="submit">
+									<button>submit</button>
+								</div>
 							</form>
 						</div>
 					</section>
@@ -271,7 +275,7 @@
       function showCart() {
         let str = ''
         for (let i = 0; i < cart.length; i += 1) {
-          str += `<li>
+          str += `<p class="listitem">
             <span>
               ${cart[i].name} 
 							<span>${cart[i].price}</span> each 
