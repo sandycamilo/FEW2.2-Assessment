@@ -184,7 +184,6 @@ strong {
 
 .strongpar > p {
     font-size: 20px;
-    /* border: solid; */
     border-color: black;
     border-width: .4px;
     position: relative;
@@ -274,19 +273,19 @@ a {
 
 .colorlink {
     background-color: rgba(255, 94, 0, 0.555);
-    width: 780px;
+    width: 700px;
     height: 100px;
     position: relative;
     top: -247px;
-    left:190px;
+    left: 55px;
 }
 
 .Linkcolor {
     position: relative;
     left: 20px;
-    top: 6px;
-    color:rgb(7, 5, 5);
-    font-size: 26px;
+    top: 13px;
+    color:rgb(0, 0, 0);
+    font-size: 21px;
 }
 
 img {
@@ -299,7 +298,7 @@ img {
 .pencilbox {
     background-color: rgba(255, 255, 255, 0.733);
     position: relative;
-    top: 44px;
+    top: 62px;
     width: 598px;
     height: 110px;
     left: 110px;
@@ -311,8 +310,9 @@ img {
     left: 53px;
     width: 500px;
     background-color: rgba(255, 255, 255, 0.925);
-    font-size: 50px;
-    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
 }
 
 .carpetbox {
@@ -331,8 +331,9 @@ img {
     left: 53px;
     width: 500px;
     background-color: rgba(255, 255, 255, 0.925);
-    font-size: 22px;
-    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
 }
 
 .colorboxes {
@@ -350,8 +351,9 @@ img {
     left: 53px;
     width: 500px;
     background-color: rgba(255, 255, 255, 0.925);
-    font-size: 22px;
-    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
 }
 
 .colortitle {
@@ -359,7 +361,7 @@ img {
     background-color: rgba(192, 231, 165, 0.089);
     height: 400px;
     position: relative;
-    top: 10px;
+    top: 60px;
 }
 
 .colortitle > h1 {
@@ -369,10 +371,10 @@ img {
 
 .colortitle > p {
     position: relative;
-    top: -80px;
-    left: 50px;
-    color: rgb(77, 75, 75);
-    padding: 20px;
+    top: -90px;
+    left: -2px;
+    color: rgb(26, 26, 26);
+    padding: 15px;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 12px;
