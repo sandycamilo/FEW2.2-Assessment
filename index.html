@@ -1,115 +1,147 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+        <title></title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
 	</head>
 	<body>
-
-		<!-- Base Styles - Set the base styles for the page -->
-
 		<main>
-
 			<!-- navbar - Style the navbar -->
 			<section id="nav">
 				<header>
 					<nav>
-						<a href="#">Color.com</a>
-						<a href="#about">About</a>
-						<a href="#popular">Popular</a>
-						<a href="#swatches">Swatches</a>
-						<a href="#cart">Order</a>
-						<a href="#contact">Contact</a>
+						<a href="#">COLOR.COM</a>
+						<a href="#about">ABOUT</a>
+						<a href="#popular">POPULAR</a>
+						<a href="#swatches">SWATCHES</a>
+						<a href="#cart">ORDER</a>
+						<a href="#contact">CONTACT</a>
 					</nav>
 				</header>
 			</section>
 
 			<!-- banner -->
 			<section>
-				<h1>...Color.com is awesome...</h1>
+				<h3>Colorisawesome</h3>
 			</section>
 
 
 			<!-- section about - -->
 			<section id="about">
 				<header>
-					<h1>What is color?</h1>
-				</header>
-				<p><strong>Color</strong> (American English), or colour (Commonwealth English), is the characteristic of visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple. This perception of color derives from the stimulation of photoreceptor cells (in particular cone cells in the human eye and other vertebrate eyes) by electromagnetic radiation (in the visible spectrum in the case of humans).</p>
-				<p>Color is really important for making great <abbr title="Cascading Style Sheets">CSS</abbr> styles. <a href="#">Color.com is the most amazing place to get your colors.</a></p>
+					<h1>WHAT IS COLOR?</h1>
+                </header>
+                <div class="colordef">
+					<p class="strong-color"><strong>Color</strong></p>
+					<div class="strongpar">
+                        (American English), or colour (Commonwealth
+                        English), is the characteristic of visual 
+                        perception described through color categories, 
+                        with names such as red, orange, yellow, green, 
+                        blue, or purple. This perception of color derives 
+                        from the stimulation of photoreceptor cells (in 
+                        particular cone cells in the human eye and other 
+                        vertebrate eyes) by electromagnetic radiation (in 
+						the visible spectrum in the case of humans).
+
+						<p>Color is really important for making great <abbr title="Cascading Style Sheets">CSS</abbr> styles.</p>
+                	</div>
+                        
+                
+                    <div class="colorlink"><a class="Linkcolor" href="#">Color.com is the most amazing place to get your colors.</a></div>
+                </div>
 			</section>
 
 
 			
 			<!-- Section Color Cards - This section contains three cards Style these -->
 			<section id="popular">
-				<div class="card">
+				<div class="card1">
 					<img src="images/600px-64_365_Color_Macro.jpg">
-					<p>Colored Pencils</p>
+					<div class="pencilbox">
+						<p>COLORED PENCILS</p>
+					</div>
 				</div>
 
-				<div class="card">
+				<div class="card2">
 					<img src="images/600px-Nasir-al_molk.jpg">
-					<p>Color effect—sunlight shining through stained glass onto carpet (Nasir ol Molk Mosque located in Shiraz, Iran)</p>
+					<div class="carpetbox">
+						<p>Color effect—sunlight shining through stained glass onto carpet (Nasir ol Molk Mosque located in Shiraz, Iran)</p>
+					</div>
 				</div>
 
-				<div class="card">
+				<div class="card3">
 					<img src="images/600px-Chubb_Illusion.png">
-					<p>Colors can appear different depending on their surrounding colors and shapes. The two small squares have exactly the same color, but the right one looks slightly darker, the Chubb illusion.</p>
+					<div class="colorboxes">
+						<p>Colors can appear different depending on their surrounding colors and shapes. The two small squares have exactly the same color, but the right one looks slightly darker, the Chubb illusion.</p>
+					</div>
 				</div>
 			</section>
 
 
 
 			<!-- Section Color Swatches - This section contains -->
+			
 			<section id="swatches">
 				<header>
-					<h1>Colors</h1>
-					<p>At color.com we offer a range of high quality colors.</p>
+					<div class="colortitle">
+						<h1>COLORS</h1>
+						<p>At color.com we offer a range of high quality colors.</p>
+					</div>
 				</header>
+			
 				<div class="swatches">
 					
 				</div>
 			</section>
+		
+			<div class="carfform">
+				<section id="cart">
+					<header>
+						<h1>CART</h1>
+					</header>
 
-			<section id="cart">
-				<header>
-					<h1>Cart</h1>
-				</header>
-
-				<ul id="items">
-					<!-- Items here -->
-				</ul>
-	
-				<div id="total">
-					<!-- Total here -->
-				</div>
-			</section>
+					<ul id="items">
+						<!-- Items here -->
+					</ul>
+		
+					<div id="total">
+						<!-- Total here -->
+					</div>
+				</section>
+			</div>
 
 
 
 			<!-- Contact form -->
-			<section id="contact">
-				<header>
-					<h1>Contact</h1>
-				</header>
-				<div>
-					<form>
-						<label>
-							name
-							<input type="text">
-						</label>
-						<label>
-							Subject
-							<input type="text">
-						</label>
-						<label>
-							Message
-							<textarea></textarea>
-						</label>
-						<button>Submit</button>
-					</form>
+			<div class="contctform">
+				<div id= "contactsec">
+					<section id="contact">
+						<header>
+							<h1>CONTACT</h1>
+						</header>
+						<div>
+							<form>
+								<label>
+									NAME
+									<input type="text"><br>
+								</label>
+								<label>
+									SUBJECT
+									<input type="text"><br>
+								</label>
+								<label>
+									MESSAGE
+									<textarea></textarea>
+								</label>
+								<button>submit</button>
+							</form>
+						</div>
+					</section>
 				</div>
-			</section>
+			</div>
 
 
 
@@ -121,7 +153,6 @@
 					</ul>
 				</footer>
 			</section>
-
 		</main>
 
 		<style>
@@ -150,8 +181,6 @@
 
 
 		<script>
-			
-
 
 			// --color-sample-0 : red
 			// --color-sample-1 : green

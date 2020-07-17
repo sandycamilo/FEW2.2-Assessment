@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Paysage';
+    src: url('Paysage-Black.eot');
+    src: url('Paysage-Black.eot?#iefix') format('embedded-opentype'),
+        url('Paysage-Black.woff2') format('woff2'),
+        url('Paysage-Black.woff') format('woff'),
+        url('Paysage-Black.ttf') format('truetype'),
+        url('Paysage-Black.svg#Paysage-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TINY 5x3 140';
+    src: url('TINY5x3-140.eot');
+    src: url('TINY5x3-140.eot?#iefix') format('embedded-opentype'),
+        url('TINY5x3-140.woff2') format('woff2'),
+        url('TINY5x3-140.woff') format('woff'),
+        url('TINY5x3-140.ttf') format('truetype'),
+        url('TINY5x3-140.svg#TINY5x3-140') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
