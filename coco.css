@@ -186,6 +186,10 @@ textarea:focus {
     left: 0;
     right: 0;
     top: 0;
+
+    overflow: hidden;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 a {
@@ -224,7 +228,7 @@ a {
 img {
     position: relative;
     top: 100px;
-    left: 110px;
+    left: 150px;
     bottom: 200px;
 }
 
@@ -234,7 +238,7 @@ img {
     top: 72px;
     width: 598px;
     height: 50px;
-    left: 110px;
+    left: 150px;
     
 }
 .pencilbox > p {
@@ -264,7 +268,7 @@ img {
     top: 68px;
     width: 598px;
     height: 90px;
-    left: 110px;
+    left: 150px;
 
 }
 
@@ -284,7 +288,7 @@ img {
     top: 68px;
     width: 598px;
     height: 90px;
-    left: 111px;
+    left: 151px;
 }
 
 .colorboxes > p {
@@ -365,6 +369,7 @@ button {
     position: relative;
     top: 30px;
     left: 55px;
+    padding-bottom: 100px;
 }
 
 
@@ -431,4 +436,16 @@ button {
     position: relative;
     left: -40px;
     top: 2px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(34, 31, 34);
+    color: white;
+    text-align: center;
+    height: 90px;
+    padding: 0;
 }
