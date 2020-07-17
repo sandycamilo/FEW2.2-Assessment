@@ -1,0 +1,6 @@
+
+.swatches {
+@for $i from 0 to 100 {
+    --color-sample-#{$i}: hsl(#{$i*(360/100)}, 100%, 50%);
+    }
+}

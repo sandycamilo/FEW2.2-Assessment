@@ -2,7 +2,8 @@
 <html>
 	<head>
         <title></title>
-        <link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="coco.css">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
 	</head>
@@ -24,7 +25,8 @@
 
 			<!-- banner -->
 			<section>
-				<h3>Colorisawesome</h3>
+				<!-- <h3>Color is awesome</h3> -->
+				<ticker-tape>Color is awesome</ticker-tape>
 			</section>
 
 
@@ -55,35 +57,8 @@
 			</section>
 
 
-			
-			<!-- Section Color Cards - This section contains three cards Style these -->
-			<section id="popular">
-				<div class="card1">
-					<img src="images/600px-64_365_Color_Macro.jpg">
-					<div class="pencilbox">
-						<p>COLORED PENCILS</p>
-					</div>
-				</div>
-
-				<div class="card2">
-					<img src="images/600px-Nasir-al_molk.jpg">
-					<div class="carpetbox">
-						<p>Color effect—sunlight shining through stained glass onto carpet (Nasir ol Molk Mosque located in Shiraz, Iran)</p>
-					</div>
-				</div>
-
-				<div class="card3">
-					<img src="images/600px-Chubb_Illusion.png">
-					<div class="colorboxes">
-						<p>Colors can appear different depending on their surrounding colors and shapes. The two small squares have exactly the same color, but the right one looks slightly darker, the Chubb illusion.</p>
-					</div>
-				</div>
-			</section>
-
-
-
 			<!-- Section Color Swatches - This section contains -->
-			
+		
 			<section id="swatches">
 				<header>
 					<div class="colortitle">
@@ -96,31 +71,58 @@
 					
 				</div>
 			</section>
-		
-			<div class="carfform">
-				<section id="cart">
-					<header>
+
+
+			<section id="cart">
+				<header>
+					<div class="colortitle">
 						<h1>CART</h1>
-					</header>
-
-					<ul id="items">
-						<!-- Items here -->
-					</ul>
-		
-					<div id="total">
-						<!-- Total here -->
 					</div>
-				</section>
-			</div>
+				</header>
 
+				<ul id="items">
+					<!-- Items here -->
+				</ul>
+	
+				<div id="total">
+					<!-- Total here -->
+				</div>
+			</section>
+			
+			
+			<!-- Section Color Cards - This section contains three cards Style these -->
+			<section id="popular">
+				<div class="card">
+					<img src="images/600px-64_365_Color_Macro.jpg">
+					<div class="pencilbox">
+						<p>COLORED PENCILS</p>
+					</div>
+				</div>
 
+				<div class="card">
+					<img src="images/600px-Nasir-al_molk.jpg">
+					<div class="carpetbox">
+						<p>Color effect—sunlight shining through stained glass onto carpet (Nasir ol Molk Mosque located in Shiraz, Iran)</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="images/600px-Chubb_Illusion.png">
+					<div class="colorboxes">
+						<p>Colors can appear different depending on their surrounding colors and shapes. The two small squares have exactly the same color, but the right one looks slightly darker, the Chubb illusion.</p>
+					</div>
+				</div>
+			</section>
+	
 
 			<!-- Contact form -->
 			<div class="contctform">
 				<div id= "contactsec">
 					<section id="contact">
 						<header>
-							<h1>CONTACT</h1>
+							<div class="colortitle">
+								<h1>CONTACT</h1>
+							</div>
 						</header>
 						<div>
 							<form>
@@ -143,8 +145,6 @@
 				</div>
 			</div>
 
-
-
 			<!-- Footer -->
 			<section id="footer">
 				<footer>
@@ -155,22 +155,20 @@
 			</section>
 		</main>
 
+			<!-- swatch js and style -->
+
 		<style>
 			.swatch {
-				width: 100px;
-				height: 100px;
+				width: 50px;
+				height: 50px;
 				background-color: antiquewhite;
 				margin: 2px;
-				border: 1px solid;
+				border: .5px solid white;
 			}
 
 			.swatches {
 				display: flex;
 				flex-wrap: wrap;
-			}
-
-			.swatch {
-				background-color: red !important;
 			}
 
 			main {
@@ -181,13 +179,6 @@
 
 
 		<script>
-
-			// --color-sample-0 : red
-			// --color-sample-1 : green
-			// ...
-			// --color-sample-99 : blue
-
-			// make some swatches 
 			const swatchCount = 100
 			for (let i = 0; i < swatchCount; i += 1) {
 				const swatch = `
@@ -322,6 +313,6 @@
       getTotal()
 
 		</script>
-		
+		<script src="fancy-counter.js"></script>	
 	</body>
 </html>
